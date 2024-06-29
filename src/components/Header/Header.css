@@ -1,5 +1,9 @@
 header {
     padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header>nav {
@@ -24,7 +28,8 @@ header>nav>.nav-pages {
     display: flex;
     align-items: center;
 }
-header>nav>.nav-pages>button{
+
+header>nav>.nav-pages>button {
     font-size: 18px;
     padding: 8px 15px;
     font-weight: 500;

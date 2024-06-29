@@ -1,0 +1,95 @@
+.info-section {
+    margin-top: 100px;
+    padding-inline: 350px;
+}
+
+.info-section>.monthly-summary {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-section>.monthly-summary>.monthly-txt>h2 {
+    width: 400px;
+    font-size: 32px;
+}
+
+.info-section>.monthly-summary>.monthly-txt>p {
+    font-size: 18px;
+    color: #252B3B;
+    font-weight: 400;
+    width: 500px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.info-section>.monthly-summary>img {
+    width: 503px;
+    height: 366.94px;
+}
+
+.info-section>.expenses {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-section>.expenses>img {
+    width: 481px;
+    height: 363px;
+}
+
+.info-section>.expenses>.expenses-txt>h2 {
+    width: 400px;
+    font-size: 32px;
+}
+
+.info-section>.expenses>.expenses-txt>p {
+    font-size: 18px;
+    color: #252B3B;
+    font-weight: 400;
+    width: 500px;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.info-section>.expenses>.expenses-txt>ul>li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.info-section>.expenses>.expenses-txt>ul>li>img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-section>.group-bills {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-section>.group-bills>img {
+    width: 500px;
+    height: 392.22px;
+}
+
+.info-section>.group-bills>.group-txt>h2 {
+    width: 400px;
+    font-size: 32px;
+}
+
+.info-section>.group-bills>.group-txt>p {
+    font-size: 18px;
+    color: #252B3B;
+    font-weight: 400;
+    width: 500px;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

@@ -61,6 +61,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .main-section>.main-board>img {
@@ -69,19 +70,93 @@
 
 .main-section>.main-board>.board-savings {
     border: 1px solid white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     background: #fff;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: -40px;
+    right: 60px;
 }
 
 .main-section>.main-board>.board-savings>p {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .main-section>.main-board>.board-savings>p.amount {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.main-section>.main-board>.board-savings>div {
+    display: flex;
+
+}
+
+.main-section>.main-board>.board-savings>div>.saving-dot {
+    width: 12px;
+    height: 10px;
+    border-radius: 3px;
+    background: #262C3B1C;
+    margin-right: 10px;
+}
+
+.main-section>.main-board>.board-savings>div>.saving-line {
+    width: 60px;
+    height: 10px;
+    border-radius: 3px;
+    background: #262C3B1C;
+}
+
+.main-section>.main-board>.board-bills {
+    padding: 20px;
+    width: 250px;
+    height: 120px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+}
+
+.main-section>.main-board>.board-bills>.bill-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section>.main-board>.board-bills>.bill-users>p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-section>.main-board>.board-bills>.bill-amount {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.main-section>.main-board>.board-bills>.bill-lines {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-section>.main-board>.board-bills>.bill-lines>.bill-line {
+    width: 100px;
+    height: 10px;
+    border-radius: 3px;
+    background: #262C3B1C;
+}
+
+.main-section>.main-board>.board-bills>.bill-lines>.bill-dot {
+    width: 40px;
+    height: 10px;
+    border-radius: 3px;
+    background: #262C3B1C;
+    position: absolute;
+    top: -20px;
+    right: 0;
 }
