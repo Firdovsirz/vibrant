@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import CommentSection from './sections/CommentSection/CommentSection'
 import DownloadSection from './sections/DownloadSection/DownloadSection'
@@ -18,6 +19,7 @@ function App() {
         <CommentSection />
         <PurchaseSection />
       </main>
+      <Footer />
     </>
   )
 }

@@ -6,8 +6,24 @@
     margin-top: 100px;
 }
 
+.purchase-section>h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.purchase-section>p {
+    letter-spacing: 0.1cap;
+    color: #262c3b80;
+}
+
+.purchase-section>.purchase-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .purchase-section>.purchase-methods>.personal {
-    border: 1px solid rgb(201, 201, 201);
+    border: 1px solid rgb(226, 226, 226);
     width: 400px;
     padding: 50px;
     border-radius: 20px;
@@ -54,11 +70,79 @@
     border-radius: 8px;
     color: white;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     cursor: pointer;
     transition: all 400ms;
+    font-weight: 600;
 }
 
 .purchase-section>.purchase-methods>.personal>button:hover {
     background: #000;
+}
+
+.purchase-section>.purchase-methods>.business {
+    background-image: url(../../assets/business-bg.avif);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(226, 226, 226);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: rgba(38, 44, 59, 0.02) 0px 1.24527px 2.21381px 0px, rgba(38, 44, 59, 0.027) 0px 2.99255px 5.32008px 0px, rgba(38, 44, 59, 0.035) 0px 5.6347px 10.0172px 0px, rgba(38, 44, 59, 0.043) 0px 10.0513px 17.869px 0px, rgba(38, 44, 59, 0.05) 0px 18.7999px 33.4221px 0px, rgba(38, 44, 59, 0.07) 0px 45px 80px 0px;
+}
+
+.purchase-section>.purchase-methods>.business>h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.purchase-section>.purchase-methods>.business>p {
+    font-size: 18px;
+    letter-spacing: 0.1cap;
+    margin-bottom: 10px;
+    color: white !important;
+}
+
+.purchase-section>.purchase-methods>.business>p.business-amount {
+    font-size: 24px;
+    color: #262c3b80;
+}
+
+.purchase-section>.purchase-methods>.business>p.business-amount>span {
+    font-size: 50px;
+    color: white;
+}
+
+.purchase-section>.purchase-methods>.business>ul>li {
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+    color: white;
+}
+
+.purchase-section>.purchase-methods>.business>ul>li>img {
+    margin-right: 10px;
+}
+
+.purchase-section>.purchase-methods>.business>button {
+    width: 100%;
+    padding: 12px 10px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 400ms;
+    font-weight: 600;
+}
+
+.purchase-section>.purchase-methods>.business>button:hover {
+    background: #965CFF;
+    border-color: #965CFF;
+    color: white;
 }
