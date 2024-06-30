@@ -1,0 +1,64 @@
+.purchase-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.purchase-section>.purchase-methods>.personal {
+    border: 1px solid rgb(201, 201, 201);
+    width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(38, 44, 59, 0.02) 0px 1.24527px 2.21381px 0px, rgba(38, 44, 59, 0.027) 0px 2.99255px 5.32008px 0px, rgba(38, 44, 59, 0.035) 0px 5.6347px 10.0172px 0px, rgba(38, 44, 59, 0.043) 0px 10.0513px 17.869px 0px, rgba(38, 44, 59, 0.05) 0px 18.7999px 33.4221px 0px, rgba(38, 44, 59, 0.07) 0px 45px 80px 0px;
+}
+
+.purchase-section>.purchase-methods>.personal>h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.purchase-section>.purchase-methods>.personal>p {
+    font-size: 18px;
+    letter-spacing: 0.1cap;
+    margin-bottom: 10px;
+}
+
+.purchase-section>.purchase-methods>.personal>p.personal-amount {
+    font-size: 24px;
+    color: #262c3b80;
+}
+
+.purchase-section>.purchase-methods>.personal>p.personal-amount>span {
+    font-size: 50px;
+    color: black;
+}
+
+.purchase-section>.purchase-methods>.personal>ul>li {
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.purchase-section>.purchase-methods>.personal>ul>li>img {
+    margin-right: 10px;
+}
+
+.purchase-section>.purchase-methods>.personal>button {
+    width: 100%;
+    padding: 12px 10px;
+    background: #965CFF;
+    border: 1px solid #965CFF;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.purchase-section>.purchase-methods>.personal>button:hover {
+    background: #000;
+}
