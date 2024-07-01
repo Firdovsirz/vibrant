@@ -4,35 +4,48 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    transition: all 400ms;
+    z-index: 11;
 }
 
-header>nav {
+header>.nav-menu {
     display: flex;
     justify-content: space-between;
 }
 
-header>nav>.nav-pages>ul {
+header>.nav-menu>.nav-pages>ul {
     display: flex;
     justify-content: space-between;
     width: 160px;
     margin-right: 15px;
 }
 
-header>nav>.nav-pages>ul>li {
+header>.nav-menu>.nav-pages>ul>.list-element {
     list-style-type: none;
     font-size: 17px;
     color: white;
+    transition: all 400ms;
 }
 
-header>nav>.nav-pages {
+header>.nav-menu>.nav-pages {
     display: flex;
     align-items: center;
 }
 
-header>nav>.nav-pages>button {
+header>.nav-menu>.nav-pages>button {
     font-size: 18px;
     padding: 8px 15px;
     font-weight: 500;
     border: 1px solid transparent;
     border-radius: 10px;
+}
+
+.sticky {
+    background: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1 ); /* Box shadow from bottom */
+}
+
+header>.nav-menu>.nav-pages>ul>.colored-list {
+    color: black;
 }

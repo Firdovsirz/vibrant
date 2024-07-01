@@ -1,7 +1,6 @@
 footer {
     background: #000;
     padding: 150px 400px;
-    margin-top: 100px;
 }
 
 footer>.footer-info {
@@ -32,9 +31,11 @@ footer>.footer-desc>p {
     margin-block: 30px;
     font-size: 20px;
 }
-footer>.footer-desc>form{
+
+footer>.footer-desc>form {
     margin-top: 50px;
 }
+
 footer>.footer-desc>form>button {
     margin-left: 20px;
     padding: 15px;
